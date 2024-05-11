@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'atom_regular'; /*a name to be used later*/
+    src: url('fonts/atom-regular.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'atom_bold'; /*a name to be used later*/
+    src: url('fonts/atom-bold.ttf'); /*URL to font*/
+}
+
+.plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before {
+  background: rgb(143,99,232,1);
+}
+.aligncenter {
+    text-align: center;
+}
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+}
+.channel-boxes {
+    height: 180px;
+    width: 600px;
+    margin: auto;
+    display: table;
+    background: linear-gradient(to right, rgb(143,99,232,1), rgb(80,170,192,1));
+	border-radius: 13px;
+
+}
+.banner-box {
+    height: 175px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: table;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.artist-text {
+line-height: 1;
+text-transform: uppercase;
+font-family: atom_regular;
+font-size: 150%;
+color: rgb(255 255 255);
+text-align: center;
+padding-top: 1%;
+}
+.title-text {
+line-height: 1;
+text-transform: uppercase;
+font-family: atom_bold;
+font-size: 150%;
+color: rgb(255 255 255);
+text-align: center;
+font-style: normal;
+padding-top: 0%;
+}
+.listeners-text {
+line-height: 1;
+font-family: atom_regular;
+font-size: 100%;
+color: rgb(255 255 255);
+text-align: center;
+}
+.listeners-text2 {
+line-height: 1;
+font-family: atom_regular;
+font-size: 120%;
+color: rgb(255 255 255);
+text-align: center;
+}
+.text-test {
+font-family: atom_regular;
+font-size: 230%;
+text-align: center;
+color: rgb(255 255 255);
+padding-bottom: 5px;
+}
