@@ -22,7 +22,7 @@
     width: 600px;
     margin: auto;
     display: table;
-    background: linear-gradient(to right, rgb(143,99,232,1), rgb(80,170,192,1));
+    background: linear-gradient(to right, #ef3123, #ed0f7a);
 	border-radius: 13px;
 
 }
